@@ -9,18 +9,40 @@ position: fixed;
 top: 0;
 width: 100%;
 color: white;
-height: 35px;
+height: 30px;
 text-align: right;
 padding-top: 2%;
 padding-right: 2%;
-color: rgba(1, 1, 1, .5);
+color: rgba(255, 255, 255, .5);
 }
 
-#intro { padding-top: 15%;
- text-align: center;}
+#nav {background-color: #D3D3D3;
+	height: 110px;
+	z-index: -1}
 
+html {min-height:100%;
+ }
+body {background-color: #7DBC7F;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#intro { padding-top: 15%;
+ text-align: center;
+ 	font-family: "Roboto";
+ 	text-transform: uppercase;
+ 	font-size: 45px;
+ 	color: #2a2a2a;
+;
+
+}
  #introheader { padding-top: 1%;
- 	text-align: center;}
+ 	text-align: center;
+ 	font-family: "Open Sans";
+ 	color: #2a2a2a; 
+ 	font-size: 25px;}
+
 
 #button1 { padding-top: 15%;
 	display: block;
@@ -43,30 +65,28 @@ color: rgba(1, 1, 1, .5);
     color: rgba(1, 1, 1, .5);
 
 }
+#page {background-color: #D3D3D3;}
 
 #spaceheader {
 	padding-top: 1%;
 	text-align: center;
+	font-family: "Roboto";
+ 	text-transform: uppercase;
+ 	color: #2a2a2a;
 }
 
 #userimage {display: block;
 	 padding-left: 10%;
 	 z-index: -1}
 
-#usertext {text-align: left;}
+#usertext {text-align: left;
+	font-family: "Open Sans";
+	font-size: 15px;}
 
 #howimage {display: block;
 	margin-left: auto;
 	margin-right: auto;}
 #howcontainer {padding-bottom: 1%;}
-#howheader {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	text-align: center;}
-
-
-#howheader2 {
-	text-align: center;}
 
 #howcontainer {
 	padding-right: 2%;
@@ -88,12 +108,15 @@ color: rgba(1, 1, 1, .5);
 	z-index: -1;}
 
 #profilecontainer { padding: 5%;}
-#profilename {text-align: center;}
-#profileheader {text-align: left;}
+#profilename {text-align: center;
+	font-family: "Open Sans";}
+#profileheader {text-align: left;
+	font-family: "Open Sans";}
 #userimage2 {display: block;
 	margin-right: auto;
 	margin-left: auto;}
-#profiledetails1 { text-align: left;}
+#profiledetails1 { text-align: left;
+	font-family: "Open Sans";}
 
 
 #pricingimage {display: block;
