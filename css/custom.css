@@ -2,7 +2,7 @@
 #logo{ 
 	padding-left: 1%; 
 	/*padding-right: 15%;*/
-	padding-top: 1%; }
+	padding-top: 2%; }
 
 #navigation {
 position: fixed;
@@ -20,13 +20,16 @@ color: rgba(255, 255, 255, .5);
 	height: 110px;
 	z-index: -1}
 
-html {min-height:100%;
+html {/*min-height:100%;*/
  }
-body {background-color: #7DBC7F;
+body {background-image: url('../background.jpg');
+background-repeat: repeat;}
+
+/*{background-color: #7DBC7F;
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;}
+  background-size: cover;}*/
 
 #intro { padding-top: 15%;
  text-align: center;
